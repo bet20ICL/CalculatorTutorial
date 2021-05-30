@@ -12,7 +12,7 @@ int main()
     char oper = '+';
 
     std::cout << "Calculator Console Application" << std::endl;
-    std::cout << "Please enter the operation to perform. Format: a+b| a-b | a*b | a/b" << std::endl;
+    std::cout << "Please enter the operation to perform. Format: a+b| a-b | a*b | a/b | a^b | a#b" << std::endl;
 
     Calculator c;
     while (true) {
