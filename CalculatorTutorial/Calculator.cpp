@@ -17,7 +17,8 @@ double Calculator::Calculate(double x, char oper, double y)
 		case '^':
 			return pow(x,y);
 		case '#':
-			return rand() % (int) (y - x) + x;
+			srand(time(NULL));
+			return rand() % (int) (y - x + 1) + x;
 		default:
 			return 0.0;
 	}
